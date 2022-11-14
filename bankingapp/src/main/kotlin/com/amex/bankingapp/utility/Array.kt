@@ -19,4 +19,14 @@ fun main(){
 
  */
     customerIds.forEach { id -> println(id) }
+
+    //while loop
+    var index=0;
+    while(index < customerIds.size){
+
+        println("The value of ${customerIds[index]} in position $index")
+        index++;
+    }
+
+
 }
