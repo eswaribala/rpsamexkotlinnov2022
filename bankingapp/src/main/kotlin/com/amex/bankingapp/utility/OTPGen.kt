@@ -14,10 +14,9 @@ fun otpgen(name:String, id:Int)= if (id>10000) name.substring(2,4)+id+ Random.ne
 fun otpGenWithString(name:String,id:String): String{
 
    var result=parseString(id)
-  if (result!=null)
-     return otpgen(name,result)
+   return if (result!=null) otpgen(name,result)
    else
-      return "Not Possible to Parse"
+      "Not Possible to Parse"
 
 }
 
@@ -26,7 +25,6 @@ fun main(){
 
    println(result)
    println(result::class.java.typeName)
-
    result = otpGenWithString("Parameswari","dvfwfh")
    println(result)
 
