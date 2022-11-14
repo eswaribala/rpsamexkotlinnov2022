@@ -24,7 +24,7 @@ fun main(){
     var index=0;
     while(index < customerIds.size){
 
-        println("The value of ${customerIds[index]} in position $index")
+        println("The value of ${customerIds[index]} customer Id in position $index")
         index++;
     }
 
