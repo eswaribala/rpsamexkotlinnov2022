@@ -12,6 +12,13 @@ fun main(){
         //Object creation does not use new keyword
         customerIds[id] = Random.nextInt(1000)
     }
+
+    //range
+
+    for ( value in 1..35){
+        print("${Random.nextInt(100000)}\t")
+    }
+
 /*
     for( id in customerIds){
         println(id)
