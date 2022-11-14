@@ -3,11 +3,13 @@ package com.amex.bankingapp.utility
 enum class AccountType{
     SAVINGS,CURRENT,DEMAT,LOAN
 }
+//dynamic
 
 fun main(){
-    val account=AccountType.DEMAT
 
-    when(account){
+    println("Enter Account Type")
+    val account= readln()
+    when(AccountType.valueOf(account.uppercase())){
         AccountType.CURRENT -> println("It is Corporate Account with OD")
         AccountType.DEMAT -> println("It is Investment Account")
         AccountType.SAVINGS -> println("It is individual Account with gender and dob")
@@ -15,4 +17,7 @@ fun main(){
         else -> print("UnKnown Account")
 
     }
+
+
+
 }
