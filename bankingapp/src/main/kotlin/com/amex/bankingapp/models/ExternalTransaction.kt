@@ -9,4 +9,5 @@ class ExternalTransaction(override val bankName: String, var branchName:String,
                           override var sender: String,
                           override var receiver: String
 ) :Transaction {
+
 }

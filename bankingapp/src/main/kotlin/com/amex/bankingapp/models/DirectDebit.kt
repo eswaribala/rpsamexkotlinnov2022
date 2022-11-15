@@ -9,4 +9,7 @@ class DirectDebit(override val bankName: String, paymentDate:LocalDate,
                   override var sender: String,
                   override var receiver: String
 ) : Transaction {
+    override fun depositMoney(): Int {
+        return super.depositMoney()
+    }
 }

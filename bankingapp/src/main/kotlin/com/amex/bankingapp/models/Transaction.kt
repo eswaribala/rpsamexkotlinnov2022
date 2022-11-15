@@ -8,4 +8,8 @@ interface Transaction {
   var timeStamp:LocalDateTime
   var sender: String
   var receiver:String
+  //default implementation
+  fun depositMoney()=0
+  //default implementation
+  fun withdrawMoney()=0
 }
