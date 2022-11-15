@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation("mysql:mysql-connector-java:5.1.41")
     testImplementation(kotlin("test"))
 }
 
