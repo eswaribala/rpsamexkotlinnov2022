@@ -20,6 +20,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -46,6 +47,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.amex.bankingapp.models" />
+    </key>
+  </component>
   <component name="RunManager" selected="Kotlin.BankAppKt">
     <configuration name="ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.ArrayKt" />
@@ -102,7 +108,7 @@
       <updated>1668404694117</updated>
       <workItem from="1668404696587" duration="18235000" />
       <workItem from="1668480387862" duration="42000" />
-      <workItem from="1668484553930" duration="3711000" />
+      <workItem from="1668484553930" duration="4829000" />
     </task>
     <servers />
   </component>

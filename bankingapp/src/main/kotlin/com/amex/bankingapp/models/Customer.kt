@@ -14,8 +14,8 @@ import java.time.LocalDate
 //                                   email:String, password:String)
 //add keyword constructor if using annotations and visibility
 
-class Customer public constructor(_accountNumber:Long, _name:String, _address:Address, _contactNumber:Long,
-                                   _email:String, _password:String){
+open class Customer public constructor(_accountNumber:Long, _name:String, _address:Address, _contactNumber:Long,
+                                   _email:String, _password:String) {
 
 //static variable and static method
     companion object{
