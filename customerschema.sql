@@ -26,10 +26,6 @@ CREATE TABLE `corporate` (
 -- Dumping data for table `corporate`
 --
 
-/*!40000 ALTER TABLE `corporate` DISABLE KEYS */;
-INSERT INTO `corporate` (`Company_Type`,`Customer_Id`) VALUES 
- ('Private',2);
-/*!40000 ALTER TABLE `corporate` ENABLE KEYS */;
 
 
 --
@@ -52,12 +48,7 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-/*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` (`Customer_Id`,`Contact_Number`,`Email`,`First_Name`,`Last_Name`,`Middle_Name`,`Password`) VALUES 
- (1,9952032862,'eswaribala@rediffmail.com','Parameswari','Bala','','Test@123'),
- (2,9952032862,'vebconsulting2022@gmail.com','Veb Consulting','Private Limited','','Test@123'),
- (3,9952032862,'vikigmail.com','Vignesh','Manickam','','Test@123');
-/*!40000 ALTER TABLE `customer` ENABLE KEYS */;
+
 
 
 --
@@ -77,19 +68,3 @@ CREATE TABLE `individual` (
 -- Dumping data for table `individual`
 --
 
-/*!40000 ALTER TABLE `individual` DISABLE KEYS */;
-INSERT INTO `individual` (`Gender`,`Customer_Id`) VALUES 
- ('FEMALE',1),
- ('MALE',3);
-/*!40000 ALTER TABLE `individual` ENABLE KEYS */;
-
-
-
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
