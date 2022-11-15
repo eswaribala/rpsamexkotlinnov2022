@@ -36,16 +36,16 @@ INSERT INTO `corporate` (`Company_Type`,`Customer_Id`) VALUES
 --
 
 DROP TABLE IF EXISTS `customer`;
+CREATE DATABASE `amexdb2022` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
 CREATE TABLE `customer` (
-  `Customer_Id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `Account_No` bigint(20) NOT NULL AUTO_INCREMENT,
   `Contact_Number` bigint(20) DEFAULT NULL,
   `Email` varchar(150) NOT NULL,
-  `First_Name` varchar(50) NOT NULL,
-  `Last_Name` varchar(50) NOT NULL,
-  `Middle_Name` varchar(50) DEFAULT NULL,
+  `Name` varchar(50) NOT NULL,
   `Password` varchar(10) NOT NULL,
-  PRIMARY KEY (`Customer_Id`)
-) 
+  PRIMARY KEY (`Account_No`));
+
 
 --
 -- Dumping data for table `customer`
