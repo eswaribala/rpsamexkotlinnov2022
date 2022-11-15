@@ -9,7 +9,7 @@ class DirectDebit(override val bankName: String, paymentDate:LocalDate,
                   override var timeStamp: LocalDateTime,
                   override var sender: String,
                   override var receiver: String
-) : Transaction,HSBCTransaction {
+) : Transaction {
 
     override fun depositMoney(): Int {
         return Random.nextInt(10000)
@@ -18,7 +18,7 @@ class DirectDebit(override val bankName: String, paymentDate:LocalDate,
     override fun withdrawMoney(): Int {
         //conflict handling
         super<Transaction>.withdrawMoney()
-       // super<HSBCTransaction>.withdrawMoney()
+        //super<HSBCTransaction>.withdrawMoney()=100
         return Random.nextInt()
     }
 
