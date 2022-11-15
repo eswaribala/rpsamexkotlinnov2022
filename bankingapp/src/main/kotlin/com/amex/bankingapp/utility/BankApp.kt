@@ -7,10 +7,12 @@ import java.time.LocalDate
 fun main(){
 
     var individualImpl=IndividualImpl()
+    /*
     individualImpl.addIndividual(Individual(485874,"Parameswari",Address("","","",
         "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
         Gender.FEMALE,LocalDate.of(1970,12,2)))
-
+*/
+    individualImpl.getAllIndividuals().forEach{x-> println("${x.accountNo},${x.name}") }
 }
 
 /*

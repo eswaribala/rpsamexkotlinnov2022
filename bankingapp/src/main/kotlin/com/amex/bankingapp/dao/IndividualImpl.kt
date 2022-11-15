@@ -1,5 +1,6 @@
 package com.amex.bankingapp.dao
 
+import com.amex.bankingapp.dtos.ResponseWrapper
 import com.amex.bankingapp.facades.IndividualFacade
 import com.amex.bankingapp.helpers.DBHelper
 import com.amex.bankingapp.models.Gender
@@ -39,8 +40,27 @@ class IndividualImpl : IndividualFacade {
         return count
     }
 
-    override fun getAllIndividuals(): List<Individual> {
-        TODO("Not yet implemented")
+    override fun getAllIndividuals(): List<ResponseWrapper> {
+        var customerQuery=resourceBundle.getString("getIndividuals")
+        var result=conn?.prepareStatement(customerQuery)?.executeQuery()
+        var responseList= mutableListOf<ResponseWrapper>()
+        if (result != null) {
+            while (result.next()) {
+
+                // getting the value of the id column
+                val accountNo = result.getLong("Account_No")
+
+                // getting the value of the name column
+                val name = result.getString("Name")
+
+                /*
+            constructing a User object and
+            putting data into the list
+             */
+                responseList.add(ResponseWrapper(accountNo, name))
+            }
+        }
+        return responseList
     }
 
     override fun getIndividualById(accountNo: Long): Individual {
