@@ -41,7 +41,7 @@ class Customer public constructor(_accountNumber:Long, _name:String, _address:Ad
 
 //secondary constructor
 
-    constructor() : this(5936996,"Vignesh", Address(),
+    constructor() : this(5936996,"Vignesh", Address("34","Gandhi Road","Pune","MH"),
         28582548,"Param","Test@123")
 
 

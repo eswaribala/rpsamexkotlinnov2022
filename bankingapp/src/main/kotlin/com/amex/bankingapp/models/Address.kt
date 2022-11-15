@@ -1,5 +1,5 @@
 package com.amex.bankingapp.models
-
+/*
 class Address{
     var doorNo: String = ""
     var streetName: String = ""
@@ -8,3 +8,10 @@ class Address{
 
 
 }
+*/
+data class Address(var doorNo: String,
+                   var streetName: String,
+                   var city: String,
+                   var state: String)
+
+
