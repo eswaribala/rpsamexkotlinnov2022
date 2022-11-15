@@ -16,11 +16,9 @@ object DBHelper {
     init {
         val resource = ResourceBundle.getBundle("db")
         url = resource.getString("url")
-
         userName =resource.getString("username")
         password = resource.getString("password")
         driver=resource.getString("driver")
-
     }
 
 
