@@ -1,29 +1,4 @@
--- MySQL Administrator dump 1.4
---
--- ------------------------------------------------------
--- Server version	5.7.34-log
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
-
---
--- Create schema boamsoct2022customerdb
---
-
-CREATE DATABASE IF NOT EXISTS boamsoct2022customerdb;
-USE boamsoct2022customerdb;
-
---
--- Definition of table `address`
---
 
 DROP TABLE IF EXISTS `address`;
 CREATE TABLE `address` (
@@ -35,19 +10,8 @@ CREATE TABLE `address` (
   PRIMARY KEY (`Address_Id`),
   KEY `Customer_Id` (`Customer_Id`),
   CONSTRAINT `Customer_Id` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+)
 
---
--- Dumping data for table `address`
---
-
-/*!40000 ALTER TABLE `address` DISABLE KEYS */;
-/*!40000 ALTER TABLE `address` ENABLE KEYS */;
-
-
---
--- Definition of table `corporate`
---
 
 DROP TABLE IF EXISTS `corporate`;
 CREATE TABLE `corporate` (
@@ -55,7 +19,7 @@ CREATE TABLE `corporate` (
   `Customer_Id` bigint(20) NOT NULL,
   PRIMARY KEY (`Customer_Id`),
   CONSTRAINT `FKcsdj4r1w7ayq1x1wdopeevhjv` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) 
 
 --
 -- Dumping data for table `corporate`
@@ -81,7 +45,7 @@ CREATE TABLE `customer` (
   `Middle_Name` varchar(50) DEFAULT NULL,
   `Password` varchar(10) NOT NULL,
   PRIMARY KEY (`Customer_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) 
 
 --
 -- Dumping data for table `customer`
@@ -105,8 +69,7 @@ CREATE TABLE `individual` (
   `Customer_Id` bigint(20) NOT NULL,
   PRIMARY KEY (`Customer_Id`),
   CONSTRAINT `FK6pwgm33ayqklcl3umkns1d26j` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+) 
 --
 -- Dumping data for table `individual`
 --
