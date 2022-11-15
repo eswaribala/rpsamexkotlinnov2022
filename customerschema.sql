@@ -3,15 +3,16 @@
 DROP TABLE IF EXISTS `address`;
 CREATE TABLE `address` (
   `Address_Id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `Door_No` varchar(5),
+  `State` varchar(100),
   `City` varchar(100) NOT NULL,
   `Pincode` bigint(20) DEFAULT NULL,
   `Street_Name` varchar(150) NOT NULL,
-  `Customer_Id` bigint(20) DEFAULT NULL,
+  `Account_No` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`Address_Id`),
-  KEY `Customer_Id` (`Customer_Id`),
-  CONSTRAINT `Customer_Id` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-)
-
+  KEY `Account_No` (`Account_No`),
+  CONSTRAINT `Address_Id_FK` FOREIGN KEY (`Account_No`) REFERENCES `customer` (`Account_No`)
+);
 
 DROP TABLE IF EXISTS `corporate`;
 CREATE TABLE `corporate` (
