@@ -9,7 +9,7 @@ fun main(){
     address.streetName="Gandhi Road"
     address.city="Bangalore"
     address.state="Karanatka"
-    
+
     var customer1= Customer(5936996,"Parameswari", address,
         28582548,"Param","Test@123")
     address=Address()
@@ -21,8 +21,8 @@ fun main(){
         28582549,"Param","Test@123")
     var customer3=Customer()
     var customer4=Customer()
-    println("${customer1.accountNumber},${customer1.name}")
-    println("${customer2.email},${customer2.password}")
+    println("${customer1.accountNumber},${customer1.name},${customer1.address.city}")
+    println("${customer2.email},${customer2.password},${customer2.address.city}")
     println("${customer3.accountNumber},${customer3.name}")
     //static variable
     println("Total Number of Customers = ${Customer.totalNumberOfCustomers()}");
