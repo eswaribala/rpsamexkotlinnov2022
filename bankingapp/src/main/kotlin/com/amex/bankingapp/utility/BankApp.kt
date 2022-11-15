@@ -1,8 +1,7 @@
 package com.amex.bankingapp.utility
 
-import com.amex.bankingapp.models.Address
-import com.amex.bankingapp.models.Customer
-import com.amex.bankingapp.models.Individual
+import com.amex.bankingapp.models.*
+import java.time.LocalDate
 
 fun main(){
 
@@ -21,6 +20,10 @@ fun main(){
     //static variable
     println("Total Number of Customers = ${Customer.totalNumberOfCustomers()}");
 
-    var individual= Individual()
-    println("${individual.accountNumber},${individual.name},${individual.address.city}")
+    var individual= Individual("Bala",Gender.MALE, LocalDate.of(1995,12,7))
+    println("${individual.accountNumber},${individual.name},${individual.gender}," +
+            "${individual.dob},${individual.address.city}")
+
+
+
 }

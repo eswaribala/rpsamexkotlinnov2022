@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -108,7 +108,7 @@
       <updated>1668404694117</updated>
       <workItem from="1668404696587" duration="18235000" />
       <workItem from="1668480387862" duration="42000" />
-      <workItem from="1668484553930" duration="4829000" />
+      <workItem from="1668484553930" duration="5907000" />
     </task>
     <servers />
   </component>
