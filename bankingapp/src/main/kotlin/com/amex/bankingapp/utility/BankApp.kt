@@ -25,5 +25,8 @@ fun main(){
             "${individual.dob},${individual.address.city}")
 
 
+    var savingsAccount=SavingsAccount(500000,LocalDate.of(2007,1,1),
+        0.8F)
+    println(savingsAccount.runningTotal)
 
 }
