@@ -16,10 +16,10 @@ CREATE TABLE `address` (
 DROP TABLE IF EXISTS `corporate`;
 CREATE TABLE `corporate` (
   `Company_Type` varchar(255) NOT NULL,
-  `Customer_Id` bigint(20) NOT NULL,
-  PRIMARY KEY (`Customer_Id`),
-  CONSTRAINT `FKcsdj4r1w7ayq1x1wdopeevhjv` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-) 
+  `Account_No` bigint(20) NOT NULL,
+  PRIMARY KEY (`Account_No`),
+  CONSTRAINT `Corporate_FK` FOREIGN KEY (`Account_No`) REFERENCES `customer` (`Account_No`)
+);
 
 --
 -- Dumping data for table `corporate`
