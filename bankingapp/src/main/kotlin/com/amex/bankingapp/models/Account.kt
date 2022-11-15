@@ -6,5 +6,8 @@ abstract class Account {
 
    abstract var runningTotal:Long
    abstract var openingDate: LocalDate
-  abstract  fun showCustomerTransactions()
+  //abstract  fun showCustomerTransactions()
+ open fun showCustomerTransactions(){
+      println("Displaying customer transactions.....")
+  }
 }
