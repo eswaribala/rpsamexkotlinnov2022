@@ -17,6 +17,16 @@ import java.time.LocalDate
 class Customer public constructor(_accountNumber:Long, _name:String, _address:Address, _contactNumber:Long,
                                    _email:String, _password:String){
 
+//static variable and static method
+    companion object{
+        var counter=0;
+
+        fun totalNumberOfCustomers():Int{
+            return counter
+        }
+    }
+
+
    //back fields
     var accountNumber=_accountNumber
     var name = _name;
@@ -28,11 +38,12 @@ class Customer public constructor(_accountNumber:Long, _name:String, _address:Ad
     init{
         println("initialize data")
         openingDate=LocalDate.now()
+        counter++;
     }
 
 //secondary constructor
 
-    constructor() : this(5936996,"Parameswari", Address(),
+    constructor() : this(5936996,"Vignesh", Address(),
         28582548,"Param","Test@123")
 
 
