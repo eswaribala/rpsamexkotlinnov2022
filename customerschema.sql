@@ -66,10 +66,12 @@ INSERT INTO `customer` (`Customer_Id`,`Contact_Number`,`Email`,`First_Name`,`Las
 DROP TABLE IF EXISTS `individual`;
 CREATE TABLE `individual` (
   `Gender` varchar(255) DEFAULT NULL,
-  `Customer_Id` bigint(20) NOT NULL,
-  PRIMARY KEY (`Customer_Id`),
-  CONSTRAINT `FK6pwgm33ayqklcl3umkns1d26j` FOREIGN KEY (`Customer_Id`) REFERENCES `customer` (`Customer_Id`)
-) 
+  `Account_No` bigint(20) NOT NULL,
+  `SurName` varchar(100) DEFAULT NULL,
+  `DOB` Date,
+  PRIMARY KEY (`Account_No`),
+  CONSTRAINT `invidividual_fk` FOREIGN KEY (`Account_No`) REFERENCES `customer` (`Account_No`)
+);
 --
 -- Dumping data for table `individual`
 --
