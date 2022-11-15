@@ -21,9 +21,7 @@ class Customer public constructor(_accountNumber:Long, _name:String, _address:Ad
     companion object{
         var counter=0;
 
-        fun totalNumberOfCustomers():Int{
-            return counter
-        }
+        fun totalNumberOfCustomers()=counter
     }
 
 

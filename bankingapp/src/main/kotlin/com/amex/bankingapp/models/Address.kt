@@ -1,3 +1,10 @@
 package com.amex.bankingapp.models
 
-class Address
+class Address{
+    var doorNo: String = ""
+    var streetName: String = ""
+    var city: String = ""
+    var state: String = ""
+
+
+}
