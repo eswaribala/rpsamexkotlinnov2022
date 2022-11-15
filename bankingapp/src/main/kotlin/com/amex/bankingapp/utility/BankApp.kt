@@ -1,10 +1,16 @@
 package com.amex.bankingapp.utility
 
+import com.amex.bankingapp.dao.IndividualImpl
 import com.amex.bankingapp.models.*
 import java.time.LocalDate
 
 fun main(){
 
+    var individualImpl=IndividualImpl()
+
+}
+
+/*
     var customer1= Customer(5936996,"Parameswari", Address("13b",
         "Gandhi Road","Bangalore","KN",800001),
         28582548,"Param","Test@123")
@@ -29,5 +35,4 @@ fun main(){
         0.8F)
     println(savingsAccount.runningTotal)
     savingsAccount.showCustomerTransactions()
-
-}
+*/
