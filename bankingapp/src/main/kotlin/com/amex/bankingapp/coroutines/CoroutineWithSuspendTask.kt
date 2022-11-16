@@ -4,26 +4,24 @@ import com.amex.bankingapp.dao.IndividualImpl
 import com.amex.bankingapp.models.Address
 import com.amex.bankingapp.models.Gender
 import com.amex.bankingapp.models.Individual
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import java.time.LocalDate
 
-fun main()= runBlocking {
-
-    println("The Program Starts ${Thread.currentThread().name}")
-    launch{
-        println("Blocking Thread ${Thread.currentThread().name}")
-        fetchIndividuals()
+fun main(){
+    GlobalScope.launch {
+      println(Thread.currentThread().name)
+        fetchIndividualsv1()
     }
-
+    println(Thread.currentThread().name)
+    Thread.sleep(5000)
     insertIndividualData()
-    println("${Thread.currentThread().name}")
 }
 
 
-
-suspend fun fetchIndividuals() {
+suspend fun fetchIndividualsv1() {
     println("${Thread.currentThread().name}")
     delay(100)
     var individualImpl = IndividualImpl()
@@ -34,7 +32,7 @@ suspend fun fetchIndividuals() {
 }
 
 
-fun insertIndividualData(){
+fun insertIndividualDatav1(){
 
     var individualImpl= IndividualImpl()
 //main thread, if main delayed everything is under that will be delayed
@@ -42,7 +40,7 @@ fun insertIndividualData(){
 
 
     individualImpl.addIndividual(
-        Individual(43888,"Parameswari", Address("","","",
+        Individual(43889,"Parameswari", Address("","","",
             "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
             Gender.FEMALE, LocalDate.of(1970,12,2))
     )
