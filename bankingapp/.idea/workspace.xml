@@ -51,8 +51,8 @@
       <list>
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -84,7 +84,7 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MapDemoKt">
+  <component name="RunManager" selected="Kotlin.ZipdemoKt">
     <configuration name="bankingapp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,13 +105,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="BankAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.BankAppKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="CollectionDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.CollectionDemoKt" />
@@ -134,13 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipdemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.ZipdemoKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ZipdemoKt" />
         <item itemvalue="Kotlin.MapDemoKt" />
         <item itemvalue="Kotlin.CollectionDemoKt" />
         <item itemvalue="Kotlin.CollectionKt" />
         <item itemvalue="Gradle.bankingapp [build]" />
-        <item itemvalue="Kotlin.BankAppKt" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="2277000" />
+      <workItem from="1668572439761" duration="2974000" />
     </task>
     <servers />
   </component>
