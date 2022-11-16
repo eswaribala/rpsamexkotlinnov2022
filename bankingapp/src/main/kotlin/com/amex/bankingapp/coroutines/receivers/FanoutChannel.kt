@@ -9,16 +9,16 @@ import kotlinx.coroutines.launch
 
 
 fun CoroutineScope.launchProcessor(
-    id: Int,
-    channel: ReceiveChannel<Int>
+    id:Long,
+    channel: ReceiveChannel<Long>
 ) = launch {
     for (msg in channel) {
         println("#$id received $msg")
     }
 }
 fun CoroutineScope.launchProcessor1(
-    id: Int,
-    channel: ReceiveChannel<Int>
+    id: Long,
+    channel: ReceiveChannel<Long>
 ) = launch {
     for (msg in channel) {
         println("#$id received $msg")
@@ -26,8 +26,8 @@ fun CoroutineScope.launchProcessor1(
 }
 
 fun CoroutineScope.launchProcessor2(
-    id: Int,
-    channel: ReceiveChannel<Int>
+    id: Long,
+    channel: ReceiveChannel<Long>
 ) = launch {
     for (msg in channel) {
         println("#$id received $msg")
