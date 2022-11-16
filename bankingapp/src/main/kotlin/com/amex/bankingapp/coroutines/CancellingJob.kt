@@ -8,12 +8,13 @@ fun main(){
 
     runBlocking{
        var job= launch{
-            delay(12000)
-           println("Executing the job")
+            delay(3000)
+           insertIndividualDatav1()
         }
     println("Executing main")
-    Thread.sleep(15000)
-    job.cancel()
+        fetchIndividualsv1()
+    Thread.sleep(5000)
+        job.cancel()
     job.join()
     }
 
