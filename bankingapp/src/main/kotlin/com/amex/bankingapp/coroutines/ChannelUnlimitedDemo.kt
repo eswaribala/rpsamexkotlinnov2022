@@ -10,7 +10,7 @@ import kotlin.random.Random
 
 suspend fun main(): Unit= coroutineScope {
 //channel
-    var channel = Channel<Long>()
+    var channel = Channel<Long>(capacity = Channel.UNLIMITED)
     var individualImpl=IndividualImpl()
 
 

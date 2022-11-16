@@ -88,7 +88,7 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ChannelDemoKt">
+  <component name="RunManager" selected="Kotlin.ChannelBufferedOverFlowDemoKt">
     <configuration name="BankAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.BankAppKt" />
       <module name="bankingapp.main" />
@@ -103,6 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChannelBufferedOverFlowDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelBufferedOverFlowDemoKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChannelDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelDemoKt" />
       <module name="bankingapp.main" />
@@ -110,15 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoroutineWithSuspendTaskKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.CoroutineWithSuspendTaskKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongRunningTaskKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.LongRunningTaskKt" />
+    <configuration name="ChannelUnlimitedDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelUnlimitedDemoKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ChannelBufferedOverFlowDemoKt" />
+        <item itemvalue="Kotlin.ChannelUnlimitedDemoKt" />
         <item itemvalue="Kotlin.ChannelDemoKt" />
         <item itemvalue="Kotlin.BankAppKt" />
         <item itemvalue="Kotlin.CancellingJobKt" />
-        <item itemvalue="Kotlin.CoroutineWithSuspendTaskKt" />
-        <item itemvalue="Kotlin.LongRunningTaskKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="19193000" />
+      <workItem from="1668572439761" duration="19511000" />
     </task>
     <servers />
   </component>
