@@ -88,9 +88,16 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CancellingJobKt">
+  <component name="RunManager" selected="Kotlin.ChannelDemoKt">
     <configuration name="CancellingJobKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.CancellingJobKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChannelDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelDemoKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,20 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ThreadDemoKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ChannelDemoKt" />
         <item itemvalue="Kotlin.CancellingJobKt" />
         <item itemvalue="Kotlin.CoroutineWithSuspendTaskKt" />
         <item itemvalue="Kotlin.LongRunningTaskKt" />
         <item itemvalue="Kotlin.CoroutineDemoKt" />
-        <item itemvalue="Kotlin.ThreadDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="15094000" />
+      <workItem from="1668572439761" duration="16977000" />
     </task>
     <servers />
   </component>
