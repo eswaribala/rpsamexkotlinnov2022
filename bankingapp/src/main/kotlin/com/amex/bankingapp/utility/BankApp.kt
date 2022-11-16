@@ -12,7 +12,8 @@ fun main(){
         "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
         Gender.FEMALE,LocalDate.of(1970,12,2))
     println(individual.isAvailable())
-
+    var individualImpl=IndividualImpl()
+    individualImpl.getAllIndividuals().forEach { x -> println("${x.accountNo},${x.name}") }
     /*
     try {
     var individualImpl=IndividualImpl()
