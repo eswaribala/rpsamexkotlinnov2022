@@ -1,6 +1,7 @@
 package com.amex.bankingapp.dao
 
 import com.amex.bankingapp.dtos.ResponseWrapper
+import com.amex.bankingapp.exceptions.ConnectionNotFound
 import com.amex.bankingapp.facades.IndividualFacade
 import com.amex.bankingapp.helpers.DBHelper
 import com.amex.bankingapp.models.Gender
@@ -16,7 +17,7 @@ class IndividualImpl : IndividualFacade {
          if(conn !=null)
              println("Connection Established")
          else
-             println("No Connection found")
+            throw ConnectionNotFound()
      }
     override fun addIndividual(individual: Individual): Int? {
 

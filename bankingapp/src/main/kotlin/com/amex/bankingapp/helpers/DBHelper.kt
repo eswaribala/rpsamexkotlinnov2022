@@ -1,5 +1,9 @@
 package com.amex.bankingapp.helpers
 
+import com.amex.bankingapp.exceptions.PasswordNotFound
+import com.amex.bankingapp.exceptions.ResourceNotFound
+import com.amex.bankingapp.exceptions.UrlNotFound
+import com.amex.bankingapp.exceptions.UserNameNotFound
 import java.sql.Connection
 import java.sql.DriverManager
 import java.util.*
@@ -15,9 +19,24 @@ object DBHelper {
 
     init {
         val resource = ResourceBundle.getBundle("db")
+
         url = resource.getString("url")
-        userName =resource.getString("username")
+        if(url==null){
+            throw UrlNotFound()
+        }
+        try {
+            userName = resource.getString("username")
+        }
+        catch(missing:MissingResourceException){
+            throw ResourceNotFound()
+        }
+        if(userName.length == 0){
+            throw UserNameNotFound()
+        }
         password = resource.getString("password")
+        if(password==null){
+            throw PasswordNotFound()
+        }
         driver=resource.getString("driver")
     }
 

@@ -1,6 +1,7 @@
 package com.amex.bankingapp.utility
 
 import com.amex.bankingapp.dao.IndividualImpl
+import com.amex.bankingapp.exceptions.*
 import com.amex.bankingapp.models.*
 import java.time.LocalDate
 
@@ -12,7 +13,24 @@ fun main(){
         "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
         Gender.FEMALE,LocalDate.of(1970,12,2)))
 */
-    individualImpl.getAllIndividuals().forEach{x-> println("${x.accountNo},${x.name}") }
+    try {
+        individualImpl.getAllIndividuals().forEach { x -> println("${x.accountNo},${x.name}") }
+    }
+    catch(url: UrlNotFound){
+
+    }
+    catch(resource: ResourceNotFound){
+
+    }
+    catch(userName: UserNameNotFound){
+
+    }
+    catch(password: PasswordNotFound){
+
+    }
+    catch(connection: ConnectionNotFound){
+
+    }
 }
 
 /*
