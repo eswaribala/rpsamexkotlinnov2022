@@ -84,7 +84,7 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CollectionDemoKt">
+  <component name="RunManager" selected="Kotlin.MapDemoKt">
     <configuration name="bankingapp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.FunctionalInterfaceKt" />
+    <configuration name="MapDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.MapDemoKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MapDemoKt" />
         <item itemvalue="Kotlin.CollectionDemoKt" />
         <item itemvalue="Kotlin.CollectionKt" />
         <item itemvalue="Gradle.bankingapp [build]" />
         <item itemvalue="Kotlin.BankAppKt" />
-        <item itemvalue="Kotlin.FunctionalInterfaceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="593000" />
+      <workItem from="1668572439761" duration="2277000" />
     </task>
     <servers />
   </component>
