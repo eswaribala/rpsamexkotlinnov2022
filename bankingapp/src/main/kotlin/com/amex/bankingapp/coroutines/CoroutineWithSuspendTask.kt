@@ -17,7 +17,7 @@ fun main(){
     }
     println(Thread.currentThread().name)
     Thread.sleep(5000)
-    insertIndividualData()
+    insertIndividualDatav1()
 }
 
 
@@ -40,7 +40,7 @@ fun insertIndividualDatav1(){
 
 
     individualImpl.addIndividual(
-        Individual(43889,"Parameswari", Address("","","",
+        Individual(1009,"Parameswari", Address("","","",
             "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
             Gender.FEMALE, LocalDate.of(1970,12,2))
     )
