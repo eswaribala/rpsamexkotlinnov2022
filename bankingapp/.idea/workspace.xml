@@ -74,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/coroutines",
+    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/coroutines/receivers",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -82,27 +82,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\receivers" />
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\senders" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ChannelBufferedOverFlowDemoKt">
-    <configuration name="BankAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.BankAppKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CancellingJobKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.CancellingJobKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.FanoutChannelKt (1)">
     <configuration name="ChannelBufferedOverFlowDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelBufferedOverFlowDemoKt" />
       <module name="bankingapp.main" />
@@ -124,13 +112,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FanoutChannelKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.coroutines.senders.FanoutChannelKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FanoutChannelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.coroutines.FanoutChannelKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FanoutChannelKt (1)" />
+        <item itemvalue="Kotlin.FanoutChannelKt" />
         <item itemvalue="Kotlin.ChannelBufferedOverFlowDemoKt" />
         <item itemvalue="Kotlin.ChannelUnlimitedDemoKt" />
         <item itemvalue="Kotlin.ChannelDemoKt" />
-        <item itemvalue="Kotlin.BankAppKt" />
-        <item itemvalue="Kotlin.CancellingJobKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +149,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="20172000" />
+      <workItem from="1668572439761" duration="20720000" />
     </task>
     <servers />
   </component>

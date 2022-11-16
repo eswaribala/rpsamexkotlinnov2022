@@ -22,11 +22,29 @@ fun CoroutineScope.launchProcessor(
         println("#$id received $msg")
     }
 }
+fun CoroutineScope.launchProcessor1(
+    id: Int,
+    channel: ReceiveChannel<Int>
+) = launch {
+    for (msg in channel) {
+        println("#$id received $msg")
+    }
+}
 
+fun CoroutineScope.launchProcessor2(
+    id: Int,
+    channel: ReceiveChannel<Int>
+) = launch {
+    for (msg in channel) {
+        println("#$id received $msg")
+    }
+}
 suspend fun main(): Unit = coroutineScope {
     val channel = produceNumbers()
     repeat(3) { id ->
         delay(10)
         launchProcessor(id, channel)
+        launchProcessor1(id, channel)
+        launchProcessor2(id, channel)
     }
 }
