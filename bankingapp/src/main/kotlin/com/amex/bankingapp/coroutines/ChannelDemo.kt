@@ -6,6 +6,7 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlin.random.Random
 
 suspend fun main(): Unit= coroutineScope {
 //channel
@@ -13,7 +14,7 @@ suspend fun main(): Unit= coroutineScope {
 
     launch {
         delay(1000)
-        for (x in 1..5) channel.send(x * x)
+        for (x in 1..5) channel.send(Random.nextInt(1000))
 
     }
 
