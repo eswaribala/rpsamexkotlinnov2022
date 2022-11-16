@@ -8,12 +8,14 @@ fun  main() {
 
     var name="Parameswari"
     var orgName="RPS Consulting"
+
+    //launching coroutine
     GlobalScope.launch {
+        //delay is internally suspend function
         delay(2000)
         name.toCharArray().forEach {
 
                 x-> println("Thread Name is ${Thread.currentThread().name}->$x\t")
-
         }
 
     }
@@ -23,6 +25,7 @@ fun  main() {
             x-> println("Thread Name is ${Thread.currentThread().name}->$x\t")
 
     }
+
     Thread.sleep(3000)
 
 }
