@@ -11,4 +11,8 @@ fun main(){
     companyList.zip(shareIndexList).forEach{(i1,i2)->println("$i1,$i2")}
 
     println(sharemap.values.forEach{it->println("$it")})
+
+    //associatewith
+    println(companyList.associateWith { it->it.length })
+
 }
