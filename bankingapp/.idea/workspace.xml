@@ -88,9 +88,9 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CoroutineWithSuspendTaskKt">
-    <configuration name="BankAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.BankAppKt" />
+  <component name="RunManager" selected="Kotlin.CancellingJobKt">
+    <configuration name="CancellingJobKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.CancellingJobKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CancellingJobKt" />
         <item itemvalue="Kotlin.CoroutineWithSuspendTaskKt" />
         <item itemvalue="Kotlin.LongRunningTaskKt" />
         <item itemvalue="Kotlin.CoroutineDemoKt" />
         <item itemvalue="Kotlin.ThreadDemoKt" />
-        <item itemvalue="Kotlin.BankAppKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <workItem from="1668484553930" duration="25164000" />
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
-      <workItem from="1668572439761" duration="12890000" />
+      <workItem from="1668572439761" duration="13657000" />
     </task>
     <servers />
   </component>
