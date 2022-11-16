@@ -64,8 +64,19 @@ class IndividualImpl : IndividualFacade {
         return responseList
     }
 
-    override fun getIndividualById(accountNo: Long): Individual {
-        TODO("Not yet implemented")
+    override fun getIndividualById(accountNo: Long): Boolean {
+        var status=false
+        var customerQuery=resourceBundle.getString("checkCustomer")
+        var pre=conn?.prepareStatement(customerQuery)
+        pre?.setLong(1,accountNo)
+       var result=pre?.executeQuery()
+        result?.next()
+        var count=result?.getInt("recordcount")
+        if (count ==1) {
+            status=true
+        }
+        return status
+
     }
 
     override fun updateIndividualById(accountNo: Long, individual: Individual): Individual {

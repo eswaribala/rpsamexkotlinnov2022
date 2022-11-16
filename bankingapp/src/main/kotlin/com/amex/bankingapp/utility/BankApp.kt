@@ -2,20 +2,29 @@ package com.amex.bankingapp.utility
 
 import com.amex.bankingapp.dao.IndividualImpl
 import com.amex.bankingapp.exceptions.*
+import com.amex.bankingapp.extensions.isAvailable
 import com.amex.bankingapp.models.*
 import java.time.LocalDate
 
 fun main(){
 
+    var individual=Individual(485874,"Parameswari",Address("","","",
+        "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
+        Gender.FEMALE,LocalDate.of(1970,12,2))
+    println(individual.isAvailable())
+
+    /*
+    try {
     var individualImpl=IndividualImpl()
     /*
     individualImpl.addIndividual(Individual(485874,"Parameswari",Address("","","",
         "",0),9952032862,"Parameswairbala@gmail.com","Test@123","Bala",
         Gender.FEMALE,LocalDate.of(1970,12,2)))
 */
-    try {
+
         individualImpl.getAllIndividuals().forEach { x -> println("${x.accountNo},${x.name}") }
     }
+
     catch(url: UrlNotFound){
 
     }
@@ -31,6 +40,11 @@ fun main(){
     catch(connection: ConnectionNotFound){
 
     }
+    catch(initial:ExceptionInInitializerError){
+
+    }
+
+     */
 }
 
 /*
