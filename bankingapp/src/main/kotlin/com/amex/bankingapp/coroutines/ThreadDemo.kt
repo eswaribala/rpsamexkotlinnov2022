@@ -7,14 +7,15 @@ fun main(){
     var orgName="RPS Consulting"
     thread(start = true, name = "Animated Name"){
         name.toCharArray().forEach {
-                x-> print("$x\t")
+
+                x-> println("Thread Name is ${Thread.currentThread().name}->$x\t")
             Thread.sleep(2000)
         }
 
     }
 
     orgName.toCharArray().forEach {
-            x-> print("$x\t")
+            x-> println("Thread Name is ${Thread.currentThread().name}$x\t")
         Thread.sleep(2000)
     }
 }
