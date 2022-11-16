@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("mysql:mysql-connector-java:5.1.41")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2")
     testImplementation(kotlin("test"))
 }
 
