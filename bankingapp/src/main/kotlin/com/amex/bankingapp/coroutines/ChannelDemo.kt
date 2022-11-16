@@ -10,24 +10,23 @@ import kotlin.random.Random
 
 suspend fun main(): Unit= coroutineScope {
 //channel
-    var channel = Channel<String>()
+    var channel = Channel<Long>()
     var individualImpl=IndividualImpl()
-    var count=individualImpl.getAllIndividuals().size
+
 
     launch {
-        delay(1000)
+
         individualImpl.getAllIndividuals().forEach{
             it->
-            channel.send(it.name)
-
+            channel.send(it.accountNo)
+            delay(1000)
         }
-
-
-
+        channel.close()
     }
 
     launch {
-        for (x in 1..count)
+        for (x in channel)
+
             println(channel.receive())
 
     }
