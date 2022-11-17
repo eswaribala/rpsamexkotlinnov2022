@@ -91,14 +91,7 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PipelineKt">
-    <configuration name="ChannelBufferedOverFlowDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelBufferedOverFlowDemoKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.OperatorOverloadingKt">
     <configuration name="FanInChannelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.FanInChannelKt" />
       <module name="bankingapp.main" />
@@ -120,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.OperatorOverloadingKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PipelineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.PipelineKt" />
       <module name="bankingapp.main" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.PipelineKt" />
         <item itemvalue="Kotlin.FanInChannelKt" />
         <item itemvalue="Kotlin.FanoutChannelKt (1)" />
         <item itemvalue="Kotlin.FanoutChannelKt" />
-        <item itemvalue="Kotlin.ChannelBufferedOverFlowDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="3866000" />
+      <workItem from="1668658228982" duration="5529000" />
     </task>
     <servers />
   </component>
