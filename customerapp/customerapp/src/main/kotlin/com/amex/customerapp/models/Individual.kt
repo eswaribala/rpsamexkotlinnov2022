@@ -18,4 +18,4 @@ import javax.persistence.Table
 @EqualsAndHashCode(callSuper = false)
 
 data class Individual(@Enumerated  @Column(name="Gender") var gender:Gender,
-                      @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Column(name="DOB") var dob:LocalDate):Customer
+                      @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Column(name="DOB") var dob:LocalDate):Customer()
