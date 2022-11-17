@@ -52,6 +52,7 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -152,7 +153,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="12375000" />
+      <workItem from="1668658228982" duration="13720000" />
     </task>
     <servers />
   </component>

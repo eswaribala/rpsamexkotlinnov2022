@@ -11,7 +11,7 @@ class SpaceCraft {
     var isInSpace: Boolean = false
     var fuel: Int = 10 //actually 0
 
-    constructor(isConnectionAvailable: Boolean, isEngineInOrder: Boolean, isInSpace: Boolean, fuel: Int) {
+     constructor(isConnectionAvailable: Boolean, isEngineInOrder: Boolean, isInSpace: Boolean, fuel: Int) {
         this.isConnectionAvailable = isConnectionAvailable
         this.isEngineInOrder = isEngineInOrder
         this.isInSpace = isInSpace
