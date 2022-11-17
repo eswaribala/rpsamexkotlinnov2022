@@ -1,6 +1,7 @@
 package com.amex.bankingapp.utility
 
 import com.amex.bankingapp.models.Order
+import com.amex.bankingapp.models.times
 import kotlin.random.Random
 
 fun main(){
@@ -19,8 +20,4 @@ fun main(){
 
 }
 
-operator  fun Order.times(otherOrder:Order):Order{
-    println("${this.amount},${otherOrder.amount}")
-    var amount=this.amount*otherOrder.amount
-    return Order(this.orderId,amount)
-}
+
