@@ -1,5 +1,6 @@
 package com.amex.bankingapp.utility
 
+import com.amex.bankingapp.helpers.DBHelper
 import com.amex.bankingapp.models.Customer
 import com.amex.bankingapp.models.DirectDebit
 import com.amex.bankingapp.models.SpaceCraft
@@ -58,5 +59,20 @@ fun main(){
     var customerRef = Customer::class
 
     println("Static Method Access ${customerRef.companionObject}")
+
+    customerRef.companionObject?.memberProperties?.forEach{
+        it->println(it)
+    }
+
+    customerRef.companionObject?.memberFunctions?.forEach{
+            it->println(it)
+    }
+
+    //singleton
+    var dbHelperRef=DBHelper::class
+    println(dbHelperRef.objectInstance?.driver)
+
+
+
 
 }
