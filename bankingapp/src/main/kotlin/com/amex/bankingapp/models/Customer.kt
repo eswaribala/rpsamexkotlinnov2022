@@ -20,7 +20,7 @@ open class  Customer public constructor(_accountNumber:Long, _name:String, _addr
 //static variable and static method
     companion object{
         var counter=0;
-
+       @JvmStatic
         fun totalNumberOfCustomers()=counter
     }
 
