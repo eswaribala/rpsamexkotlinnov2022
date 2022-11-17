@@ -10,6 +10,7 @@ import java.time.LocalDateTime
 import kotlin.random.Random
 import kotlin.reflect.KMutableProperty
 import kotlin.reflect.full.companionObject
+import kotlin.reflect.full.createInstance
 import kotlin.reflect.full.memberFunctions
 import kotlin.reflect.full.memberProperties
 
@@ -58,6 +59,10 @@ fun main(){
 
     var customerRef = Customer::class
 
+    //to create
+
+    var customerObj=customerRef.createInstance()
+
     println("Static Method Access ${customerRef.companionObject}")
 
     customerRef.companionObject?.memberProperties?.forEach{
@@ -70,7 +75,12 @@ fun main(){
 
     //singleton
     var dbHelperRef=DBHelper::class
+    //test it is an object or not, if object access the value, possible only with singleton
     println(dbHelperRef.objectInstance?.driver)
+
+    dbHelperRef.memberProperties.forEach{
+        it->println(it)
+    }
 
 
 
