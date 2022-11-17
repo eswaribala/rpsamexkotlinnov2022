@@ -6,6 +6,7 @@ import com.amex.bankingapp.models.Transaction
 import java.time.LocalDate
 import java.time.LocalDateTime
 import kotlin.random.Random
+import kotlin.reflect.KMutableProperty
 import kotlin.reflect.full.memberFunctions
 import kotlin.reflect.full.memberProperties
 
@@ -27,10 +28,11 @@ fun main(){
         it.name == "amount"
     }
 
-    println(amountRef?.getter?.call(transaction)) //
+    println("Getter access ${amountRef?.getter?.call(transaction)}") //
+
     var variableToInvoke  = transactionRef.memberProperties.find { it.name == "sender" }
     // using getter
-    println(variableToInvoke?.get(transaction))
+    println("Invokable ${variableToInvoke?.get(transaction)}")
 
 
 
@@ -40,5 +42,12 @@ fun main(){
     spaceCraftRef.constructors.forEach{
         it->println(it)
     }
+
+//mutability
+    if (variableToInvoke is KMutableProperty<*>) {
+        variableToInvoke.setter.call(transaction, "Parameswari")
+    }
+    // retrive the value after change
+    println(variableToInvoke?.get(transaction))
 
 }
