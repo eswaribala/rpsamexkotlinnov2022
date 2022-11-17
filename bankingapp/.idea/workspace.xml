@@ -68,20 +68,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/coroutines/receivers&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\receivers" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\senders" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
@@ -90,7 +91,7 @@
       <recent name="com.amex.bankingapp.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FanoutChannelKt (1)">
+  <component name="RunManager" selected="Kotlin.FanInChannelKt">
     <configuration name="ChannelBufferedOverFlowDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelBufferedOverFlowDemoKt" />
       <module name="bankingapp.main" />
@@ -98,15 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChannelDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelDemoKt" />
+    <configuration name="ChannelUnlimitedDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelUnlimitedDemoKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChannelUnlimitedDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.ChannelUnlimitedDemoKt" />
+    <configuration name="FanInChannelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.FanInChannelKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FanInChannelKt" />
         <item itemvalue="Kotlin.FanoutChannelKt (1)" />
         <item itemvalue="Kotlin.FanoutChannelKt" />
         <item itemvalue="Kotlin.ChannelBufferedOverFlowDemoKt" />
         <item itemvalue="Kotlin.ChannelUnlimitedDemoKt" />
-        <item itemvalue="Kotlin.ChannelDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="1133000" />
+      <workItem from="1668658228982" duration="1780000" />
     </task>
     <servers />
   </component>

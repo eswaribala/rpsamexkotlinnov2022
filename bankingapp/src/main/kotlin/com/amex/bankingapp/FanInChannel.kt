@@ -1,5 +1,6 @@
 package com.amex.bankingapp
 
+import com.amex.bankingapp.dao.IndividualImpl
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.SendChannel
@@ -20,10 +21,16 @@ suspend fun sendString(
 
 fun main() = runBlocking {
     val channel = Channel<String>()
-    launch { sendString(channel, "foo", 200L) }
-    launch { sendString(channel, "BAR!", 500L) }
-    repeat(50) {
+    var individualImpl= IndividualImpl()
+
+    var accountNo=individualImpl.getAllIndividuals().get(0).accountNo
+    println(accountNo)
+    launch { sendString(channel, accountNo.toString(), 200L) }
+    accountNo=individualImpl.getAllIndividuals().get(1).accountNo
+    println(accountNo)
+    launch { sendString(channel, accountNo.toString(), 500L) }
+
         println(channel.receive())
-    }
+
     coroutineContext.cancelChildren()
 }
