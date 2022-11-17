@@ -24,13 +24,14 @@ fun main() = runBlocking {
     var individualImpl= IndividualImpl()
 
     var accountNo=individualImpl.getAllIndividuals().get(0).accountNo
-    println(accountNo)
+   // println(accountNo)
     launch { sendString(channel, accountNo.toString(), 200L) }
+    println(channel.receive())
     accountNo=individualImpl.getAllIndividuals().get(1).accountNo
-    println(accountNo)
+   // println(accountNo)
     launch { sendString(channel, accountNo.toString(), 500L) }
-
-        println(channel.receive())
+      for(channelInstance in channel)
+        println(channelInstance)
 
     coroutineContext.cancelChildren()
 }
