@@ -74,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp",
+    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/coroutines",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -82,10 +82,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\receivers" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\senders" />
-      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.amex.bankingapp.models" />
@@ -151,7 +151,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="2189000" />
+      <workItem from="1668658228982" duration="3258000" />
     </task>
     <servers />
   </component>

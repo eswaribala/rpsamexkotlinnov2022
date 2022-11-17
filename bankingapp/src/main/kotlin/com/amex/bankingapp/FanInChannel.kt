@@ -26,7 +26,7 @@ fun main() = runBlocking {
     var accountNo=individualImpl.getAllIndividuals().get(0).accountNo
    // println(accountNo)
     launch { sendString(channel, accountNo.toString(), 200L) }
-    println(channel.receive())
+    //println(channel.receive())
     accountNo=individualImpl.getAllIndividuals().get(1).accountNo
    // println(accountNo)
     launch { sendString(channel, accountNo.toString(), 500L) }
