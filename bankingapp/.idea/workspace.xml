@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="" />
+    <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Address.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Customer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Individual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Individual.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +168,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="16841000" />
+      <workItem from="1668658228982" duration="17528000" />
     </task>
     <servers />
   </component>

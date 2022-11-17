@@ -1,56 +1,14 @@
 package com.amex.customerapp.models
 
 import java.time.LocalDate
-
-//Empty class
-//class Customer
-//primary constructor
-//class Customer constructor(accountNumber:Long, name:String, address:Address, contactNumber:Long,
-  //                         email:String, password:String)
-
-//remove keyword constructor if not using annotations and visibility
-//class Customer (accountNumber:Long, name:String, address:Address, contactNumber:Long,
-//                                   email:String, password:String)
-//add keyword constructor if using annotations and visibility
-
-open class  Customer public constructor(_accountNumber:Long, _name:String, _address: Address, _contactNumber:Long,
-                                        _email:String, _password:String) {
-
-//static variable and static method
-    companion object{
-        var counter=0;
-       @JvmStatic
-        fun totalNumberOfCustomers()= counter
-    }
+import javax.persistence.*
 
 
-   //back fields
-    var accountNumber=_accountNumber
-    var name = _name;
-    var address=_address;
-    var contactNumber=_contactNumber;
-    var email=_email;
-    var password=_password;
-    var openingDate: LocalDate;
-    init{
-        println("initialize data")
-        openingDate=LocalDate.now()
-        counter++;
-    }
-
-//secondary constructor
-
-    constructor() : this(5936996,"Vignesh", Address("34","Gandhi Road","Pune","MH",300002),
-        28582548,"Param","Test@123")
-
-
-
-
-}
-
-
-
-//DTO
-
-//data class Customer (var accountNumber:Long, var name:String, var address:Address, var contactNumber:Long,
-                               //  var email:String, var password:String)
+@Entity
+@Table(name="Customer")
+@Inheritance(strategy = InheritanceType.JOINED)
+data class Customer (@Id @GeneratedValue(strategy = GenerationType.IDENTITY) @Column(name="Account_No")var accountNumber:Long,
+                     @Embedded var fullName:FullName,
+                     @Column(name="Contact_No") var contactNumber:Long,
+                     @Column(name="Email", nullable = false, length = 100) var email:String,
+                     @Column(name="Password", nullable = false, length = 10) var password:String)

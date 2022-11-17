@@ -2,14 +2,18 @@ package com.amex.customerapp.models
 
 import com.amex.customerapp.models.Address
 import com.amex.customerapp.models.Customer
+import lombok.experimental.SuperBuilder
+import org.springframework.format.annotation.DateTimeFormat
+
 import java.time.LocalDate
+import javax.persistence.Column
+import javax.persistence.Entity
+import javax.persistence.Enumerated
+import javax.persistence.Table
 
-final class Individual(_accountNumber:Long, _name:String, _address: Address, _contactNumber:Long,
-                       _email:String, _password:String, _surName:String, _gender:Gender, _dob: LocalDate): Customer(_accountNumber
-    , _name, _address, _contactNumber,
-    _email, _password) {
+@Entity
+@Table(name="Individual")
 
-    var surName=_surName
-    var gender=_gender
-    var dob=_dob
-}
+@SuperBuilder
+data class Individual(@Enumerated  @Column(name="Gender") var gender:Gender,
+                      @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Column(name="DOB") var dob:LocalDate)
