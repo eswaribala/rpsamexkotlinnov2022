@@ -7,7 +7,7 @@ import com.amex.bankingapp.exceptions.UserNameNotFound
 import java.sql.Connection
 import java.sql.DriverManager
 import java.util.*
-
+//singleton
 object DBHelper {
 
     val url: String?

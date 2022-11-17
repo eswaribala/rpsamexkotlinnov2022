@@ -1,5 +1,6 @@
 package com.amex.bankingapp.utility
 
+import com.amex.bankingapp.models.Customer
 import com.amex.bankingapp.models.DirectDebit
 import com.amex.bankingapp.models.SpaceCraft
 import com.amex.bankingapp.models.Transaction
@@ -7,13 +8,15 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 import kotlin.random.Random
 import kotlin.reflect.KMutableProperty
+import kotlin.reflect.full.companionObject
 import kotlin.reflect.full.memberFunctions
 import kotlin.reflect.full.memberProperties
 
 fun main(){
     var transactionRef=Transaction::class
 
-    var transaction=DirectDebit("HSBC", LocalDate.now(),Random.nextInt(10000).toLong(),LocalDateTime.now(),"","")
+    var transaction=DirectDebit("HSBC", LocalDate.now(),Random.nextInt(10000).toLong(),
+        LocalDateTime.now(),"","")
     //list all the methods in the class
 
     transactionRef.memberFunctions.forEach{
@@ -49,5 +52,11 @@ fun main(){
     }
     // retrive the value after change
     println(variableToInvoke?.get(transaction))
+
+//static method or field
+
+    var customerRef = Customer::class
+
+    println("Static Method Access ${customerRef.companionObject}")
 
 }
