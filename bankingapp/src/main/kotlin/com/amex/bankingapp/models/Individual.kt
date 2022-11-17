@@ -1,9 +1,10 @@
 package com.amex.bankingapp.models
 
+import com.amex.bankingapp.annotations.Positive
 import java.time.LocalDate
 
 final class Individual(_accountNumber:Long, _name:String, _address:Address, _contactNumber:Long,
-                       _email:String, _password:String,_surName:String,_gender:Gender, _dob: LocalDate):Customer(_accountNumber
+                       _email:String, _password:String, _surName:String, _gender:Gender, _dob: LocalDate):Customer(_accountNumber
     , _name, _address, _contactNumber,
     _email, _password) {
 
