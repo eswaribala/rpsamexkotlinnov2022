@@ -78,7 +78,8 @@
     "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/exceptions",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -92,11 +93,20 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.amex.bankingapp.models" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.amex.bankingapp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MemberAppKt">
-    <configuration name="FanInChannelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.FanInChannelKt" />
+  <component name="RunManager" selected="Application.com.amex.bankingapp.OrderApp">
+    <configuration name="com.amex.bankingapp.OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.OrderApp" />
       <module name="bankingapp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amex.bankingapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.amex.bankingapp.OrderApp" />
         <item itemvalue="Kotlin.MemberAppKt" />
         <item itemvalue="Kotlin.ReflectionOnTransactionKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.PipelineKt" />
-        <item itemvalue="Kotlin.FanInChannelKt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +163,7 @@
       <workItem from="1668524866025" duration="113000" />
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
-      <workItem from="1668658228982" duration="13720000" />
+      <workItem from="1668658228982" duration="15160000" />
     </task>
     <servers />
   </component>
