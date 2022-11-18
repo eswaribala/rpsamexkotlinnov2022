@@ -20,7 +20,7 @@ class IndividualService(private val individualRepository:IndividualRepository) {
 
     //select individual by id
 
-    fun getIndividualById(accountNo:Long):Individual{
+    fun getIndividualById(accountNo:Long):Individual?{
         return individualRepository.findById(accountNo).orElse(null)
     }
 

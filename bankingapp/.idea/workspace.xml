@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/controllers/IndividualController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/controllers/IndividualController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +230,7 @@
       <workItem from="1668705444330" duration="593000" />
       <workItem from="1668735405777" duration="3240000" />
       <workItem from="1668740587650" duration="1028000" />
-      <workItem from="1668750610517" duration="10476000" />
+      <workItem from="1668750610517" duration="10952000" />
     </task>
     <servers />
   </component>

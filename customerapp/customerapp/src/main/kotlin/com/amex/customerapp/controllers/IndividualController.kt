@@ -28,7 +28,7 @@ class IndividualController(private val individualService: IndividualService) {
     fun getIndividualsById(@PathVariable("id") IndividualId: Long): ResponseEntity<DataWrapper<Any>> {
        // return IndividualDto.from(individualService.getIndividualById(IndividualId))
 
-        var individual:Individual=individualService.getIndividualById(IndividualId);
+        var individual:Individual?=individualService.getIndividualById(IndividualId);
         if(individual!=null)
             return ResponseEntity.status(HttpStatus.OK).body(DataWrapper(individual));
         else
