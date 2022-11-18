@@ -7,7 +7,7 @@ import com.example.api.controller.model.IndividualDto
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("/individuals")
+@RequestMapping("individuals")
 //@Api(value = "Individual Management", protocols = "http")
 class IndividualController(private val individualService: IndividualService) {
 

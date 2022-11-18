@@ -13,16 +13,16 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class SwaggerConfiguration {
-
+/*
     @Bean
     fun individualv1():GroupedOpenApi{
             return GroupedOpenApi.builder()
                 .group("individuals/v1.0")
                 .packagesToScan("com.amex.customerapp")
-                .pathsToMatch("/individuals/v1.0/**")
+                .pathsToMatch("/v3/api-docs/individuals/v1.0")
                 .build();
             }
-
+*/
     @Bean
     fun springShopOpenAPI(): OpenAPI? {
         return OpenAPI()
