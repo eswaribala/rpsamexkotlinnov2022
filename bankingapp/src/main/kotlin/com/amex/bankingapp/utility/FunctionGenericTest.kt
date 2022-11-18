@@ -1,6 +1,7 @@
 package com.amex.bankingapp.utility
 
 import com.amex.bankingapp.dtos.holidayList
+import com.amex.bankingapp.dtos.holidayListExtension
 import kotlin.random.Random
 
 fun main(){
@@ -18,5 +19,6 @@ fun main(){
         holidayInfo.put("H"+Random.nextInt(25), "Govt Holiday")
     }
 
-    holidayList(holidayInfo)
+    holidayInfo.holidayListExtension()
+
 }
