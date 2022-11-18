@@ -16,9 +16,9 @@ fun main(){
 
      var dataWrapperMember:DataWrapper<Member>?=null
 
-    dataWrapperMember=DataWrapper<Member>(Member(1,"Param"))
+    dataWrapperMember= DataWrapper<Member>(Member(1,"Param"))
 
-    println(dataWrapper.pload)
+    println(dataWrapperMember.pload)
 
 
 
