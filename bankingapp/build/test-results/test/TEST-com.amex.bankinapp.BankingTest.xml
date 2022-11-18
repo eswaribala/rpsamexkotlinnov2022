@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amex.bankinapp.BankingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-18T07:11:30" hostname="DESKTOP-55AGI0I" time="0.127">
+<testsuite name="com.amex.bankinapp.BankingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-18T07:34:18" hostname="DESKTOP-55AGI0I" time="0.078">
   <properties/>
-  <testcase name="isMember" classname="com.amex.bankinapp.BankingTest" time="0.109"/>
-  <testcase name="isMember" classname="com.amex.bankinapp.BankingTest" time="0.002"/>
-  <testcase name="isMember" classname="com.amex.bankinapp.BankingTest" time="0.003"/>
+  <testcase name="isData" classname="com.amex.bankinapp.BankingTest" time="0.064"/>
+  <testcase name="isData" classname="com.amex.bankinapp.BankingTest" time="0.002"/>
+  <testcase name="isData" classname="com.amex.bankinapp.BankingTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
