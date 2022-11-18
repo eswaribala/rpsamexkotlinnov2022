@@ -102,7 +102,7 @@
       <recent name="com.amex.bankingapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BankingTest.testDbUserName">
+  <component name="RunManager" selected="Gradle.bankingapp [build]">
     <configuration name="BankingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,7 +126,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankingTest.Function isMember returns true for Name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BankingTest.Function isMember returns true from CSV" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,7 +139,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.amex.bankinapp.BankingTest.Function isMember returns true for Name&quot;" />
+            <option value="&quot;com.amex.bankinapp.BankingTest.Function isMember returns true from CSV&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,59 +172,55 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankingTest.testMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="bankingapp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.amex.bankinapp.BankingTest.testMember&quot;" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CustomerTest.testSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="bankingapp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.amex.bankinapp.CustomerTest.testSum&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.bankingapp [build]" />
+        <item itemvalue="Gradle.bankingapp [clean]" />
+        <item itemvalue="Gradle.BankingTest.Function isMember returns true from CSV" />
         <item itemvalue="Gradle.BankingTest.testDbUserName" />
         <item itemvalue="Gradle.BankingTest" />
-        <item itemvalue="Gradle.BankingTest.testMember" />
-        <item itemvalue="Gradle.BankingTest.Function isMember returns true for Name" />
-        <item itemvalue="Gradle.CustomerTest.testSum" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +243,7 @@
       <workItem from="1668705444330" duration="593000" />
       <workItem from="1668735405777" duration="3240000" />
       <workItem from="1668740587650" duration="1028000" />
-      <workItem from="1668750610517" duration="3781000" />
+      <workItem from="1668750610517" duration="4642000" />
     </task>
     <servers />
   </component>

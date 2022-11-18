@@ -1,17 +1,11 @@
 package com.amex.bankinapp
 
 import com.amex.bankingapp.models.Member
-import org.junit.jupiter.api.BeforeAll
-import org.junit.jupiter.api.DisplayName
-import org.junit.jupiter.api.Order
-import org.junit.jupiter.api.RepeatedTest
-import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.*
 import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.Arguments
-import org.junit.jupiter.params.provider.MethodSource
+import org.junit.jupiter.params.provider.CsvFileSource
 import org.junit.jupiter.params.provider.ValueSource
-import java.util.ResourceBundle
-import kotlin.random.Random
+import java.util.*
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -22,13 +16,21 @@ class BankingTest {
 
 
     companion object{
-        lateinit   var resourceBundle:ResourceBundle
-        lateinit var username:String
+         lateinit var resourceBundle:ResourceBundle
+         var username:String?=null
         @BeforeAll
         @JvmStatic
         fun getUrl(){
             resourceBundle=ResourceBundle.getBundle("db")
             username= resourceBundle.getString("username")
+        }
+
+        @AfterAll
+        @JvmStatic
+        fun setUrl(){
+
+            username=null
+
         }
     }
 
@@ -55,6 +57,14 @@ class BankingTest {
         assertTrue(member.name.length>0)
     }
 
-
+    @Order(1)
+    @ParameterizedTest(name = "isMember")
+    @CsvFileSource(resources = ["members.csv"], numLinesToSkip = 1)
+    @DisplayName("Check member id and name")
+    fun `Function isMember returns true from CSV`(id:Long,name: String) {
+        member.memberId=id
+        member.name=name
+        assertTrue(member.memberId >0 )
+    }
    
 }
