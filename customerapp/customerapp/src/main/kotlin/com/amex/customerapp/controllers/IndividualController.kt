@@ -11,19 +11,19 @@ import org.springframework.web.bind.annotation.*
 //@Api(value = "Individual Management", protocols = "http")
 class IndividualController(private val individualService: IndividualService) {
 
-    @GetMapping("/")
+    @GetMapping("/v1.0")
     fun getAllIndividuals(): List<IndividualDto> {
         return individualService.getAllIndividuals().map {
             IndividualDto.from(it)
         }
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/v1.0/{id}")
     fun getIndividualsById(@PathVariable("id") IndividualId: Long): IndividualDto {
         return IndividualDto.from(individualService.getIndividualById(IndividualId))
     }
 
-    @PostMapping("/")
+    @PostMapping("/v1.0")
     fun createIndividual(@RequestBody payload: Individual): IndividualDto {
         return IndividualDto.from(individualService.addIndividual(payload));
     }
@@ -33,7 +33,7 @@ class IndividualController(private val individualService: IndividualService) {
         return IndividualDto.from(individualService.updateIndividualById(IndividualId, Individual.from(payload)))
     }
 */
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/v1.0/{id}")
     fun deleteIndividualsById(@PathVariable("id") individualId: Long): Boolean {
         return individualService.deleteIndividualById(individualId)
     }
