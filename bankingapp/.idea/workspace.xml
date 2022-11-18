@@ -74,26 +74,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/utility&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\resources" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\utility" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\exceptions" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp" />
-      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\receivers" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.amex.bankingapp.models" />
@@ -102,7 +102,7 @@
       <recent name="com.amex.bankingapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.bankingapp [build]">
+  <component name="RunManager" selected="Gradle.BankingTest.Function isMember returns true from CSV">
     <configuration name="BankingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,9 +216,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BankingTest.Function isMember returns true from CSV" />
         <item itemvalue="Gradle.bankingapp [build]" />
         <item itemvalue="Gradle.bankingapp [clean]" />
-        <item itemvalue="Gradle.BankingTest.Function isMember returns true from CSV" />
         <item itemvalue="Gradle.BankingTest.testDbUserName" />
         <item itemvalue="Gradle.BankingTest" />
       </list>
@@ -243,7 +243,7 @@
       <workItem from="1668705444330" duration="593000" />
       <workItem from="1668735405777" duration="3240000" />
       <workItem from="1668740587650" duration="1028000" />
-      <workItem from="1668750610517" duration="4642000" />
+      <workItem from="1668750610517" duration="5130000" />
     </task>
     <servers />
   </component>

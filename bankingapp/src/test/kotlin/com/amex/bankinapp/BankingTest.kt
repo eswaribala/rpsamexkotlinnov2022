@@ -2,6 +2,7 @@ package com.amex.bankinapp
 
 import com.amex.bankingapp.models.Member
 import org.junit.jupiter.api.*
+import org.junit.jupiter.api.function.Executable
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvFileSource
 import org.junit.jupiter.params.provider.ValueSource
@@ -59,12 +60,17 @@ class BankingTest {
 
     @Order(1)
     @ParameterizedTest(name = "isMember")
-    @CsvFileSource(resources = ["members.csv"], numLinesToSkip = 1)
+    @CsvFileSource(resources = ["/members.csv"], numLinesToSkip = 1)
     @DisplayName("Check member id and name")
     fun `Function isMember returns true from CSV`(id:Long,name: String) {
         member.memberId=id
         member.name=name
-        assertTrue(member.memberId >0 )
+        Assertions.assertAll(
+            "Grouping more than one condition",
+            Executable { Assertions.assertTrue(member.memberId> 0) },
+            Executable { Assertions.assertTrue(member.name.length > 0) }
+        )
+
     }
    
 }
