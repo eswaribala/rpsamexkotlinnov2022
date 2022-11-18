@@ -9,7 +9,7 @@ fun main(){
 //test as string
     var dataWrapper:DataWrapper<String>?=null
     dataWrapper= DataWrapper<String>("Testing...")
-    println(dataWrapper.message)
+    println(dataWrapper.msg)
 
 
  //test as member
@@ -18,7 +18,7 @@ fun main(){
 
     dataWrapperMember=DataWrapper<Member>(Member(1,"Param"))
 
-    println(dataWrapper.payload)
+    println(dataWrapper.pload)
 
 
 
