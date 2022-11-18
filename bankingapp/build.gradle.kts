@@ -17,6 +17,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.21")
     testImplementation(kotlin("test"))
+    testImplementation ("org.junit.jupiter:junit-jupiter-params:5.1.0")
 }
 
 tasks.test {

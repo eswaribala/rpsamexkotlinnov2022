@@ -1,5 +1,6 @@
 package com.amex.customerapp.models
 
+import lombok.Data
 import java.time.LocalDate
 import javax.persistence.*
 
@@ -7,8 +8,18 @@ import javax.persistence.*
 @Entity
 @Table(name="Customer")
 @Inheritance(strategy = InheritanceType.JOINED)
-open class Customer (@Id @GeneratedValue(strategy = GenerationType.IDENTITY) @Column(name="Account_No")var accountNumber:Long,
-                     @Embedded var fullName:FullName,
-                     @Column(name="Contact_No") var contactNumber:Long,
-                     @Column(name="Email", nullable = false, length = 100) var email:String,
-                     @Column(name="Password", nullable = false, length = 10) var password:String)
+@Data
+open class Customer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="Account_No")
+   open var accountNumber:Long = 0
+    @Embedded
+   open lateinit var fullName:FullName
+   @Column(name="Contact_No")
+   open var contactNumber:Long = 0
+    @Column(name="Email", nullable = false, length = 100)
+    open lateinit var email:String
+    @Column(name="Password", nullable = false, length = 10)
+    open lateinit var password:String
+}

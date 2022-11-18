@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service
 class IndividualService(private val individualRepository:IndividualRepository) {
 
     //insert
-    fun addIndividual(individual: Individual){
+    fun addIndividual(individual: Individual):Individual{
 
-        individualRepository.save(individual)
+        return individualRepository.save(individual)
     }
 
     //select all

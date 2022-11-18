@@ -25,9 +25,21 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.data:spring-data-rest-hal-explorer")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
-	runtimeOnly("com.mysql:mysql-connector-j")
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	runtimeOnly("mysql:mysql-connector-java")
+
+	//implementation("io.springfox:springfox-swagger2:2.7.0")
+	//implementation("io.springfox:springfox-swagger-ui:2.7.0")
+	//implementation("io.springfox:springfox-boot-starter:3.0.0")
+	//implementation("io.springfox:springfox-swagger-ui:2.9.2")
+	//implementation("io.springfox:springfox-swagger2:2.9.2")
+	//implementation("io.springfox:springfox-spring-webflux:3.0.0")
+	implementation("org.springdoc:springdoc-openapi-ui:1.6.9")
+	//implementation("org.springdoc:springdoc-openapi-data-rest:1.5.0")
+	//implementation("org.springdoc:springdoc-openapi-kotlin:1.5.0")
 	implementation("org.projectlombok:lombok")
+	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// https://mvnrepository.com/artifact/io.mockk/mockk
+	testImplementation("io.mockk:mockk:1.13.2")
 
 }
 

@@ -5,8 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Address.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Individual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Individual.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/androidTest/java/com/amex/bankandroidapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/java/com/amex/bankandroidapplication/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/app/src/test/java/com/amex/bankandroidapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAndroidApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/CustomerappApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/CustomerappApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Corporate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Corporate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/models/Customer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/test/kotlin/com/amex/customerapp/CustomerappApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/test/kotlin/com/amex/customerapp/CustomerappApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +99,19 @@
       <list>
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/amex/bankingapp/OrderApp.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/com/amex/bankingapp/models/Customer.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/com/amex/bankingapp/models/Individual.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,23 +122,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/exceptions",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/kotlinsep2022/amexcodenov2022/bankingapp/src/main/kotlin/com/amex/bankingapp/utility&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\exceptions" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\utility" />
+      <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\exceptions" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp" />
       <recent name="F:\kotlinsep2022\amexcodenov2022\bankingapp\src\main\kotlin\com\amex\bankingapp\coroutines\receivers" />
@@ -100,43 +150,85 @@
       <recent name="com.amex.bankingapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.amex.bankingapp.OrderApp">
-    <configuration name="com.amex.bankingapp.OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.OrderApp" />
+  <component name="RunManager" selected="Gradle.BankingTest.Function isMember returns true for Name">
+    <configuration name="BankingTest.Function isMember returns true for Name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.amex.bankinapp.BankingTest.Function isMember returns true for Name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BankingTest.testMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.amex.bankinapp.BankingTest.testMember&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerTest.testSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.amex.bankinapp.CustomerTest.testSum&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContravarianceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.ContravarianceKt" />
       <module name="bankingapp.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amex.bankingapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.MemberAppKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.OperatorOverloadingKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PipelineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.coroutines.PipelineKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionOnTransactionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.ReflectionOnTransactionKt" />
+    <configuration name="GenericsCourseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.GenericsCourseKt" />
       <module name="bankingapp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.amex.bankingapp.OrderApp" />
-        <item itemvalue="Kotlin.MemberAppKt" />
-        <item itemvalue="Kotlin.ReflectionOnTransactionKt" />
-        <item itemvalue="Kotlin.OperatorOverloadingKt" />
-        <item itemvalue="Kotlin.PipelineKt" />
+        <item itemvalue="Gradle.BankingTest.Function isMember returns true for Name" />
+        <item itemvalue="Gradle.BankingTest.testMember" />
+        <item itemvalue="Gradle.CustomerTest.testSum" />
+        <item itemvalue="Kotlin.ContravarianceKt" />
+        <item itemvalue="Kotlin.GenericsCourseKt" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +259,10 @@
       <workItem from="1668571850586" duration="440000" />
       <workItem from="1668572439761" duration="21622000" />
       <workItem from="1668658228982" duration="18124000" />
+      <workItem from="1668695602639" duration="1178000" />
+      <workItem from="1668705444330" duration="593000" />
+      <workItem from="1668735405777" duration="3240000" />
+      <workItem from="1668740587650" duration="1028000" />
     </task>
     <servers />
   </component>
