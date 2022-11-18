@@ -29,10 +29,10 @@ class IndividualController(private val individualService: IndividualService) {
        // return IndividualDto.from(individualService.getIndividualById(IndividualId))
 
         var individual:Individual?=individualService.getIndividualById(IndividualId);
-        if(individual!=null)
-            return ResponseEntity.status(HttpStatus.OK).body(DataWrapper(individual));
+        return if(individual!=null)
+            ResponseEntity.status(HttpStatus.OK).body(DataWrapper(individual));
         else
-            return ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(DataWrapper("Customer Info not correct"));
+            ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(DataWrapper("Customer Info not correct"));
     }
 
     @PostMapping("/v1.0")
