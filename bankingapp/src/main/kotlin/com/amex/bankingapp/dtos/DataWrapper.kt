@@ -1,14 +1,18 @@
 package com.amex.bankingapp.dtos
 
 class DataWrapper<T> {
-    private var message: String? = null
-    private var payload: T? = null
+    private var _message: String? = null
+    private var _payload: T? = null
 
     constructor(message: String?) : super() {
-        this.message = message
+        this._message = message
     }
 
     constructor(payload: T) : super() {
-        this.payload = payload
+        this._payload = payload
     }
+
+    //backfields
+    var message=_message
+    var payload=_payload
 }
