@@ -102,7 +102,7 @@
       <recent name="com.amex.bankingapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BankingTest">
+  <component name="RunManager" selected="Gradle.BankingTest.testDbUserName">
     <configuration name="BankingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,6 +140,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.amex.bankinapp.BankingTest.Function isMember returns true for Name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BankingTest.testDbUserName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.amex.bankinapp.BankingTest.testDbUserName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,20 +218,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ContravarianceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.ContravarianceKt" />
-      <module name="bankingapp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BankingTest.testDbUserName" />
         <item itemvalue="Gradle.BankingTest" />
         <item itemvalue="Gradle.BankingTest.testMember" />
         <item itemvalue="Gradle.BankingTest.Function isMember returns true for Name" />
         <item itemvalue="Gradle.CustomerTest.testSum" />
-        <item itemvalue="Kotlin.ContravarianceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +247,7 @@
       <workItem from="1668705444330" duration="593000" />
       <workItem from="1668735405777" duration="3240000" />
       <workItem from="1668740587650" duration="1028000" />
-      <workItem from="1668750610517" duration="2780000" />
+      <workItem from="1668750610517" duration="3781000" />
     </task>
     <servers />
   </component>
