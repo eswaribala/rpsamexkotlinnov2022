@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-@OpenAPIDefinition(info = Info(title = "Customer API", version = "1.0", description = "Customer Information"))
+@OpenAPIDefinition(info = Info(title = "Customer API", version = "1.0",  description = "Customer Information"))
 class CustomerappApplication
 
 fun main(args: Array<String>) {
