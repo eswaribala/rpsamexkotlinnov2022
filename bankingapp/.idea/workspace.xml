@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/controllers/IndividualController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/controllers/IndividualController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../customerapp/customerapp/src/main/kotlin/com/amex/customerapp/services/IndividualService.kt" afterDir="false" />
-    </list>
+    <list default="true" id="35718a64-face-4d29-8515-c491a364c0a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +102,7 @@
       <recent name="com.amex.bankingapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DataWrapperTestKt">
+  <component name="RunManager" selected="Kotlin.FunctionGenericTestKt">
     <configuration name="BankingTest.Function isMember returns true from CSV" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,27 +170,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="bankingapp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="DataWrapperTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.DataWrapperTestKt" />
       <module name="bankingapp.main" />
@@ -201,13 +177,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionGenericTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amex.bankingapp.utility.FunctionGenericTestKt" />
+      <module name="bankingapp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionGenericTestKt" />
         <item itemvalue="Kotlin.DataWrapperTestKt" />
         <item itemvalue="Gradle.BankingTest.Function name returns true from Method Source" />
         <item itemvalue="Gradle.BankingTest.Function isMember returns true from CSV" />
         <item itemvalue="Gradle.bankingapp [build]" />
-        <item itemvalue="Gradle.bankingapp [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +213,7 @@
       <workItem from="1668705444330" duration="593000" />
       <workItem from="1668735405777" duration="3240000" />
       <workItem from="1668740587650" duration="1028000" />
-      <workItem from="1668750610517" duration="10952000" />
+      <workItem from="1668750610517" duration="12086000" />
     </task>
     <servers />
   </component>
